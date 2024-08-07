@@ -1,7 +1,7 @@
 {
   "name": "@wacoco/edu-components",
   "private": false,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Component Library for E-Mentor",
   "main": "dist/module.cjs.js",
   "module": "dist/module.es.js",
@@ -23,8 +23,7 @@
   "keywords": [],
   "author": "wacoco@wacoco.es",
   "license": "ISC",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "@babel/preset-react": "^7.24.7",
     "@chromatic-com/storybook": "^1.5.0",
