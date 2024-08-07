@@ -1,0 +1,21 @@
+.logo {
+    width: 200px;
+    height: 200px;
+    background-color: palevioletred;
+    border-radius: 10%;
+    padding: 4px;
+}
+
+.title{
+    width: 80px;
+    height: 70px;
+    background-color: rgb(154, 154, 238);
+    border-radius: 10%;
+}
+
+.subtitle{
+    width: 80px;
+    height: 70px;
+    background-color: yellow;
+    border-radius: 10%;
+} 

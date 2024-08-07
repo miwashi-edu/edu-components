@@ -1,0 +1,80 @@
+[
+  {
+    "id": "unique_identifier_for_course",
+    "name": "Scaffold React Component",
+    "description": "This course teaches how to scaffold a React component, starting from setting up the environment to creating necessary files.",
+    "time": 50,
+    "steps": [
+      {
+        "id": "",
+        "index": "1",
+        "cmd": "cd ~",
+        "description": "Go to your $HOME directory",
+        "tags": ["HOME"]
+      },
+      {
+        "id": "",
+        "index": "2",
+        "cmd": "cd ws",
+        "description": "Go to your $WORKSPACE",
+        "tags": ["WORKSPACE"]
+      },
+      {
+        "id": "",
+        "index": "3",
+        "cmd": "git clone $GIT_PROJECT",
+        "description": "Clone $PROJECT",
+        "tags": ["PROJECT"]
+      },
+      {
+        "id": "",
+        "index": "4",
+        "cmd": "cd $GIT_PROJECT",
+        "description": "Go to your $PROJECT",
+        "tags": ["PROJECT"]
+      },
+      {
+        "id": "",
+        "index": "5",
+        "cmd": "cd ./src/components",
+        "description": "Go to your components directory",
+        "tags": []
+      },
+      {
+        "id": "",
+        "index": "6",
+        "cmd": "touch index.js",
+        "description": "Create Barrel file",
+        "tags": []
+      },
+      {
+        "id": "",
+        "index": "7",
+        "cmd": "touch Button.jsx",
+        "description": "Create React Component file",
+        "tags": []
+      },
+      {
+        "id": "",
+        "index": "8",
+        "cmd": "touch Button.module.css",
+        "description": "Create module CSS file",
+        "tags": []
+      },
+      {
+        "id": "",
+        "index": "9",
+        "cmd": "touch Button.style.js",
+        "description": "Create CSS-in-JS file",
+        "tags": []
+      },
+      {
+        "id": "",
+        "index": "10",
+        "cmd": "cd ../..",
+        "description": "Return to $PROJECT",
+        "tags": ["PROJECT"]
+      }
+    ]
+  }
+]

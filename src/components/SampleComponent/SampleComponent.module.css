@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: lightgray;
+    margin: 20px; /* Add margin to see it in action */
+    outline: 2px solid red; /* Red outline to visualize the margin */
+}
+
+.text {
+    font-size: 24px;
+    color: gray;
+    padding: 16px;
+    border: 2px solid blue; /* Blue border to see the border */
+    border-radius: 8px;
+    background-color: white; /* Background to contrast the padding */
+    position: relative;
+}
+
+.text::before {
+    content: "";
+    position: absolute;
+    top: -20px; left: -20px; right: -20px; bottom: -20px;
+    border: 2px dashed green; /* Green dashed line to visualize padding */
+    pointer-events: none;
+}
