@@ -24,11 +24,6 @@
   "author": "wacoco@wacoco.es",
   "license": "ISC",
   "dependencies": {
-    "dompurify": "^3.1.6",
-    "html-to-image": "^1.11.11",
-    "marked": "^12.0.2",
-    "mermaid": "^10.9.1",
-    "uuid": "^10.0.0"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.24.7",
