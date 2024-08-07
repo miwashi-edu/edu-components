@@ -1,7 +1,7 @@
 {
   "name": "@wacoco/edu-components",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Component Library for E-Mentor",
   "main": "dist/module.cjs.js",
   "module": "dist/module.es.js",
